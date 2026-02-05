@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>CatPhotoApp</title>
+    </head>
+    <body>
+        <h2>CatPhotoApp</h2>
+        <main>
+          <!-- TODO; Add link to cat photos-->
+         
+        <p>Click here to view more <a href="https://catphotos.com" target = "_blank">cat photos</a>.</p>
+        <img src="edgar-nKC772R_qog-unsplash.jpg" alt="a brown tabby kitten sitting on floor." height="400" width = "300">
+        <h3>Cat Lists</h3>
+        <div class = "lists">
+            <p>Things Cat <em>love</em>:</p>
+            <ul>
+                <li>Cat nip</li>
+                <li>Laser pointers</li>
+                <li>Lasanga</li>
+            </ul>
+            <img src="lasanga.jpeg" alt="food">
+            <p>Things Cat <strong>hate</strong>:</p>
+            <ol>
+                <li>Flea treatment</li>
+                <li>thunder</li>
+                <li>Other Cats</li>
+            </ol>
+        </div>
+        <img src="cats.jpg" alt="Cats">
+        <form action="/submit-cat-photo">
+            <label for = "indoor"><input id = "indoor" type="radio" name="indoor-outdoor" checked> Indoor</label>
+            <br>
+            <label for = "outdoor"><input id = "outdoor" type="radio" name="indoor-outdoor"> Outdoor</label>
+            <br>
+             <label for="loving"><input id = "loving" type="checkbox" name = "personality" checked> Loving</label>
+             <br>
+              <label for="lazy"><input id = "lazy" type="checkbox" name = "personality"> Lazy</label>
+              <br>
+               <label for="energetic"><input id = "energetic" type="checkbox" name = "personality"> Energetic</label>
+               <br>
+            <input type="text" placeholder="Cat Photo URL" required>
+            <br>
+             <button type="submit">Submit</button>
+        </form>
+        </main>
+        <footer>
+            <p><small>No Copyright - <a href="https://freeCodeCamp.org" target = "_blank">freeCodeChamp.org</a></small></p>
+        </footer>
+    </body>
+</html>
